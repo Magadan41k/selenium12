@@ -1,6 +1,11 @@
-import static ru.stqa.training.selenium;
+package ru.stqa.training.selenium;
 
-public class MyFirstTest {
+import org.junit.Test;
+import org.openqa.selenium.By;
+
+import static org.openqa.selenium.support.ui.ExpectedConditions.titleIs;
+
+public class MyFirstTest{
 
         private WebDriver driver;
         private WebDriverWait wait;
